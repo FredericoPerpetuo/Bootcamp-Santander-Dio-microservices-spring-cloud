@@ -1,0 +1,12 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          default-label: main #nova branch do git que tomou o lugar da master
+          uri: https://github.com/FredericoPerpetuo/dio-services-config.git
+
+
